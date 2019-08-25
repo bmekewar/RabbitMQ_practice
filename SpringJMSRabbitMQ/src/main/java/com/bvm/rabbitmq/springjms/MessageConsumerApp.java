@@ -1,4 +1,4 @@
-package com.bvm.rabbitmq;
+package com.bvm.rabbitmq.springjms;
 
 import java.util.concurrent.TimeUnit;
 

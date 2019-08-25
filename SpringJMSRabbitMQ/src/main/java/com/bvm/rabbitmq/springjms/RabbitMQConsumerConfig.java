@@ -1,4 +1,4 @@
-package com.bvm.rabbitmq;
+package com.bvm.rabbitmq.springjms;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -71,6 +71,9 @@ public class RabbitMQConsumerConfig {
 
 	@Bean
 	MessageListenerAdapter listenerAdapter(MessageReceiver receiver) {
-		return new MessageListenerAdapter(receiver, "receiveMessage");
+		MessageListenerAdapter messageListenerAdapter = new MessageListenerAdapter(receiver);
+		//messageListenerAdapter.addQueueOrTagToMethodName(queueName, "receiveMessage");
+		messageListenerAdapter.addQueueOrTagToMethodName(queueName, "receiveProduct");
+		return messageListenerAdapter;
 	}
 }

@@ -1,4 +1,4 @@
-package com.bvm.rabbitmq;
+package com.bvm.rabbitmq.springjms;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

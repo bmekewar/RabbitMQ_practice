@@ -1,4 +1,4 @@
-package com.bvm.rabbitmq;
+package com.bvm.rabbitmq.springjms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

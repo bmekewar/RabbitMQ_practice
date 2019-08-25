@@ -1,4 +1,4 @@
-package com.bvm;
+package com.bvm.rabbitmq.sample;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
