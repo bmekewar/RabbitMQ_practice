@@ -23,7 +23,7 @@
 	</properties>
 
 	<modules>
-		<module>RabbitMQ</module>
+		<module>RabbitMQ-sample</module>
 		<module>SpringJMSRabbitMQ</module>
 	</modules>
 
